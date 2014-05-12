@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jean Champémont</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+            <span class="sr-only">Activer le menu</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="">Jean Champémont</a>
+        </div>
+        <div class="collapse navbar-collapse" id="main-navbar">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Accueil</a></li>
+            <li class="active"><a href="blog.html">Blog</a></li>
+          </ul>
+          <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Rechercher" id="search-button">
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <section class="col-sm-8">
+          <div class="col-main">
+            <article>
+              <h1 class="article-title">Hello, world!</h1>
+              <p class="article-meta">Le 12 mai 2014, à 11h37 par Jean Champémont</p>
+              <img class="img-responsive" src="http://fakeimg.pl/710x160/282828/">
+              <div class="article-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec lacus at libero auctor faucibus. Fusce eu magna tempus, feugiat tortor eu, iaculis urna. Maecenas odio ante, hendrerit in ante eget, congue pretium eros. Maecenas laoreet, quam non dictum euismod, nisi mauris sollicitudin elit, at consectetur nulla orci vel velit. Nam egestas nulla augue, eu cursus enim ultricies consequat. Mauris porttitor enim in viverra gravida. Integer tincidunt nulla ac metus aliquet, a lobortis eros congue. Morbi sit amet quam nec justo scelerisque feugiat vitae ut tortor. Duis tempus enim vel ante viverra lacinia. Sed interdum diam sit amet blandit luctus.</p>
+                <p>Fusce ut rutrum justo. Donec accumsan tristique lectus nec dignissim. Mauris porta eros ligula, eget facilisis nisi auctor id. Ut eget imperdiet arcu, ac egestas orci. Suspendisse at erat hendrerit, eleifend metus at, consequat sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur tristique volutpat aliquet. Vestibulum sagittis mauris ac purus tincidunt gravida. Curabitur pulvinar ipsum nec arcu rutrum sodales. Vestibulum vitae velit justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et faucibus justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p>Sed vulputate vulputate neque, eu consectetur sapien dignissim at. Phasellus et arcu neque. Curabitur aliquam accumsan lacus, sed ornare libero tristique nec. Proin nec nulla sapien. Aliquam eget leo non ante laoreet pretium quis a elit. Vestibulum et lacus pulvinar mi rhoncus rhoncus. Aenean tortor erat, ullamcorper ut rhoncus sed, accumsan at lorem. Maecenas condimentum magna augue, vel condimentum dui varius vel. Morbi sit amet erat lacinia, condimentum quam nec, eleifend augue. Fusce viverra mi ut sollicitudin mollis. Pellentesque sit amet erat nisl. Curabitur porttitor vestibulum massa, convallis volutpat augue dictum ac.</p>
+              </div>
+              <div class="article-footer">
+                <p>
+                  <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://custom.url" data-text="MyNiceTitle" data-via="jchampemont">Tweet</a>
+                  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                </p>
+              </div>
+            </article>
+            <h3>Commentaires</h3>
+            <div class="article-comment">
+              <script data-isso="https://comments.jeanchampemont.com" src="https://comments.jeanchampemont.com/js/embed.min.js"></script>
+              <section id="isso-thread"></section>
+            </div>
+          </div>
+        </section>
+        <aside class="col-sm-4">
+          <div class="col-right">
+            <h1>Simple Column</h1>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
